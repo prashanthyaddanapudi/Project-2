@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: rosybrown;
+}
+
+h1 {
+    color: black;
+}
+
+.grid-container {
+    columns: 5 200px;
+    column-gap: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+\ .grid-container div:hover img {
+    filter: grayscale(0);
+}
+
+.grid-container div:hover {
+    border-color: purple;
+}
+
+.grid-container div img {
+    width: 100%;
+    filter: border-color(100%);
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+}
+
+.grid-container div p {
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+}
