@@ -6,10 +6,10 @@ function gallery_filter(keyword) {
     for (var i = 1; i <= 30; i++) // generating new image array every time, easier to update new images.
     {
         if (keyword == null) {
-            images_array.push("Images/hobbies/Denny/hobby-" + ' ' + '(' + i + ')' + ".jpg");
+            images_array.push("Images/Denny/hobby-" + ' ' + '(' + i + ')' + ".jpg");
 
         } else if (keyword == 'all') {
-            images_array.push("Images/hobbies/Denny/hobby-" + ' ' + '(' + i + ')' + ".jpg");
+            images_array.push("Images/Denny/hobby-" + ' ' + '(' + i + ')' + ".jpg");
 
         }
 
